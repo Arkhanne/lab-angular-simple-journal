@@ -1,0 +1,8 @@
+<h2>Journal Entries</h2>
+
+<ul>
+  <li *ngFor="let jentry of journalEntries">
+    <h3>{{jentry.title}} (<span>{{jentry.date|date:'mediumDate'}}</span>)</h3>
+
+  </li>
+</ul>
